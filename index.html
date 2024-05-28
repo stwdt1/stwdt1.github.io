@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+
+<title>主页</title>
+<style type="text/css">
+ .left{
+		float: left;
+		width: 200px;
+		height: 500px;
+		background:#F7F4F4
+ }
+ .right{
+		overflow: hidden;
+		width: 500px;
+		height: 500px;
+	    background:#F3FCFC
+	 
+ }
+	
+</style>
+	
+
+<div class="container">
+	<div class="left">
+	<style type="text/css">
+#menu { /*设置menu层样式*/
+font-family:Arial; /*字体*/
+font-size:16px; /*字号*/
+width:140px; /*宽度*/
+margin:0 auto; /*菜单项水平居中*/
+border:solid 1px #ccc; /*灰色细边框*/
+}
+#menu a, #menu a:visited {
+text-decoration:none; /*文字无下划线*/
+text-align:center; /*文字水平居中对齐*/
+color:#E6C3EF; /*文字颜色*/
+display:block; /*设置为块级元素*/
+padding:4px; /*内边距*/
+background-color:#fff; /*背景色*/
+border:solid 1px #fff; /*与背景色相同边框，防止跳动*/
+position:relative; /*使用相对定位*/
+width:130px;
+}
+#menu a span {
+display:none; /*在普通状态下，将所有span元素隐藏起来*/
+}
+#menu a:hover {
+border-color:#7D7D7D; /*边框颜色*/
+}
+#menu a:hover span {
+display:block; /*设置为块级元素*/
+position:absolute; /*使用绝对定位*/
+height:0; /*高度为0*/
+width:0; /*宽度为0*/
+border:solid 8px #fff; /*边框颜色同背景色且是粗线边框*/
+top:4px; /*竖直方向的定位*/
+overflow:hidden;
+}
+#menu a:hover span.left { /*生成左侧箭头*/
+border-left-color:#EEADAE; /*箭头颜色*/
+left:8px;
+}
+#menu a:hover span.right { /*生成右侧箭头*/
+border-right-color:#EEADAE; /*箭头颜色*/
+right:8px;
+}
+
+</style>
+</head>
+<body>
+	
+	<div id="menu">
+<a href="#"><span class="left"></span>首页<span class="right"></span></a>
+<a href="介绍.html"><span class="left"></span>介绍<span class="right"></span></a>
+<a href="c.html"><span class="left"></span>最近在追<span class="right"></a>
+<a href="个性签名.html"><span class="left"></span>个性签名<span class="right"></span></a>
+<a href="生活点滴.html"><span class="left"></span>生活点滴<span class="right"></span></a>
+<a href="旅行足迹.html"><span class="left"></span>旅行足迹<span class="right"></span></a>
+</div>
+</body></div>
+<div class="right">
+		<div class="header">
+			<p><img src="头像.jpg" width="100" height="100" style="float: left" alt=""/>
+	        <div><center><h3>愫彤微淡的个人主页</h3>
+		      时光清浅处，一步一安然</p></center>
+			
+		    </div>
+			
+  </div>
+		</head>
+</div>
+<body>
+</body>
+</html>
